@@ -38,3 +38,7 @@ function editB(o){
 var a = prompt("Enter Updated Text");
 o.parentNode.firstChild.nodeValue = a;
 }
+
+function deleteal(){
+    list1.innerHTML = "";
+}
